@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pathfinder Attribute Calculator</title>
+    <link rel="stylesheet" type="text/css" href="/style/mainstyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script> 
+    <script src="/scripts/pfchar.js"></script>
+    
+</head>
+<body><div id="container">
+    <div>
+        <h1>Pathfinder Attribute Cost Point Calculator</h1>
+    </div>
+    
+    
+    <div id="statsBefore">
+    <h2 class="avail"> Available Attribute Points:</h2>
+    <div id="fantType">
+        <div class=avail4 id="lowfant"><p>Low Fantasy</p></div>
+        <div class=avail4 id="stanfant"><p>Standard Fantasy</p></div>
+        <div class=avail4 class="availdef" id="highfant"><p>High Fantasy</p></div>
+        <div class=avail4 id="epicfant"><p>Epic Fantasy</p></div>
+    </div>
+        <div id= totalPoints></div>
+    
+           
+            
+        
+    <div class="clearBoth"></br></div>
+       <div class="statNames">
+       
+        <div class="statBlock">
+            <img id="strDown" class="floatLeft" src="images/downarrow.png"> 
+               <h3 class="floatLeft">Strength</h3>
+            <img id="strUp"   src="images/uparrow.png">
+            </div>
+               <div class="statNum"><p id="str">10</p></div>
+           
+        
+        <div class="statBlock">
+            <img id="dexDown" class="floatLeft" src="images/downarrow.png"> 
+               <h3 class="floatLeft">Dexterity</h3>
+            <img id="dexUp"   src="images/uparrow.png">
+            </div>
+               <div class="statNum"><p id="dex">10</p></div>
+               
+        
+        <div class="statBlock">
+            <img id="conDown" class="floatLeft" src="images/downarrow.png"> 
+               <h3 class="floatLeft">Constitution</h3>
+            <img id="conUp"   src="images/uparrow.png">
+            </div>
+               <div class="statNum"><p id="con">10</p></div>
+    </div>
+    <div class="statNames">
+        
+        <div class="statBlock">
+            <img id="intDown" class="floatLeft" src="images/downarrow.png"> 
+               <h3 class="floatLeft">Intelligence</h3>
+            <img id="intUp"   src="images/uparrow.png">
+            </div>
+               <div class="statNum"><p id="int">10</p></div>
+               
+        
+        <div class="statBlock">
+            <img id="wisDown" class="floatLeft" src="images/downarrow.png"> 
+               <h3 class="floatLeft">Wisdom</h3>
+            <img id="wisUp"   src="images/uparrow.png">
+            </div>
+               <div class="statNum"><p id="wis">10</p></div>
+               
+        <div class="statBlock">
+            <img id="chaDown" class="floatLeft" src="images/downarrow.png"> 
+               <h3 class="floatLeft">Charisma</h3>
+            <img id="chaUp"   src="images/uparrow.png">
+            </div>
+               <div class="statNum"><p id="cha">10</p></div>
+    </div></div>
+      
+       
+    <div id="race">
+        <h3>Select Race</h3>
+            <div class="races"> 
+                <div id="gnome"> 
+                <p>Gnome</p>
+                </div>
+            </div><div class="races">
+                <div id="elf"> 
+                <p>Elf</p>
+                </div>
+                
+            </div>
+             <div class="races">
+                <div id="dwarf"> 
+                <p>Dwarf</p>
+                </div>   
+            </div>
+            <div class="races">
+                <div id="halfling" class="clearBoth"> 
+                <p>Halfling</p>
+                </div>   
+            </div>
+               <div class="humans">
+               <div class="racesHuman">
+                <div> 
+                <p>Half-Elf</p>
+                </div>   
+            </div>
+               <div class="racesHuman">
+                <div> 
+                <p>Human</p>
+                </div>   
+            </div><div class="racesHuman">
+                <div > 
+                <p>Half-Orc</p>
+                </div>   
+            </div>
+              <h4>Select Bonus</h4>
+               <div id="humanBonus">
+                <div class="statsHuman" id="STRb">
+                    <p>STR</p>
+                </div>
+                <div class="statsHuman" id="DEXb">
+                    <p>DEX</p>
+                </div>
+                <div class="statsHuman" id="CONb">
+                    <p>CON</p>
+                </div>
+                <div class="statsHuman" id="INTb">
+                    <p>INT</p>
+                </div>
+                <div class="statsHuman" id="WISb">
+                    <p>WIS</p>
+                </div>
+                <div class="statsHuman" id="CHAb">
+                    <p>CHA</p>
+                </div>
+                </div>
+            </div>
+        </div>
+
+    <div id="finalStats">
+    
+    <h2>Final Stats</h2>
+        <div class="statNumFin">
+            <h3>Strength</h3>
+            <p id="fSTR">10</p>
+            <h3>Dexterity</h3>
+            <p id="fDEX">10</p>
+            <h3>Constitution</h3>
+            <p id="fCON">10</p>
+        </div>
+        <div class="statNumFin">
+            <h3>Intelligence</h3>
+            <p id="fINT">10</p>
+            <h3>Wisdom</h3>
+            <p id="fWIS">10</p>
+            <h3>Charisma</h3>
+            <p id="fCHA">10</p>
+        </div>
+    
+    </div>
+</div>
+    
+    
+    </body>
+</html>
