@@ -55,11 +55,10 @@ h3{
 
 .statBlock img{
     margin: 0px px;
-    margin-top: 10px;
 }
 
 .statNum{
-    margin: auto;
+    margin: 0 3% 0 25%;
 }
 
 .statNumFin{
@@ -282,4 +281,9 @@ h3{
     .statBlock{ 
         width: 100%
     }
+    
+    .statBlock img{
+        
+    }
+
 }
