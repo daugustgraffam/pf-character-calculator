@@ -37,16 +37,15 @@ h3{
 }
 
 .statBlock{
-    width: 48%;
+    width: 40%;
     margin: 5px auto;
     height: 40px;
     padding: 0 20%;
 }
 
 .statBlock h3{
-    margin: 1% 3%;
     text-align: center;
-    width: 70%;   
+    width: 60%;   
 }
 
 .statBlock p{
@@ -54,12 +53,11 @@ h3{
 }
 
 .statBlock img{
-    margin: 0px px;
-    margin-top: 10px;
+    margin: 0px;
 }
 
 .statNum{
-    margin: auto;
+    margin-left: 5%;
 }
 
 .statNumFin{
@@ -230,14 +228,14 @@ h3{
 }
 
 .statsHuman{
-    width: 15%;
+    width: 12%;
     height: 25px;
     text-align: center;
     display: inline-block;
     background-color: beige;
     border-radius: 25px;
     padding-top: 10px;
-    margin-left: 1%;
+    margin-left: 3%;
     margin-bottom: 10px;
 }
 #humanBonus{
@@ -278,7 +276,13 @@ h3{
     text-align: center;
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 750px){
+    .statsHuman{
+        width: 12%;
+    }
+}
+
+@media screen and (min-width: 480px) {
     .statBlock{ 
         width: 100%;
     }
