@@ -122,7 +122,7 @@ h3{
 }
 
 #statsBefore{
-    background-image: url(/images/inners.png);
+    background-image: url(./images/inners.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -279,7 +279,14 @@ h3{
 
 @media screen and (min-width: 720px) {
     .statBlock{ 
-        width: 100%
+        width: 100%;
+    }
+    
+/*
+    .statBlock img{
+        width: 10%;
+*/
+        
     }
     
     .statBlock img{
