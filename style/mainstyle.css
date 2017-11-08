@@ -8,7 +8,7 @@ html, body{
     width: 98%;
     display: block;
     margin: auto;
-    padding: 1%;
+    padding: 1% 1% 1% 1%;
 }
 
 h1{
@@ -128,7 +128,7 @@ h3{
 }
 
 #statsBefore{
-    background-image: url(./images/inners.png);
+    background-image: url(/pf-character-calculator/images/inners.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -259,7 +259,7 @@ h3{
 #finalStats{
     width: 100%;
     display: inline-block;
-    background-image: url(/images/sketchtop.png);
+    background-image: url(/pf-character-calculator/images/sketchtop.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
