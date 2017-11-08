@@ -53,19 +53,16 @@ h3{
 }
 
 .statBlock img{
-<<<<<<< HEAD
     margin: 0px;
 }
 
 .statNum{
     margin-left: 5%;
-=======
     margin: 0px px;
 }
 
 .statNum{
     margin: 0 3% 0 25%;
->>>>>>> test1
 }
 
 .statNumFin{
@@ -305,13 +302,3 @@ h3{
         width: 10%;
 */
         
-<<<<<<< HEAD
-=======
-    }
-    
-    .statBlock img{
-        
-    }
-
->>>>>>> test1
-}
